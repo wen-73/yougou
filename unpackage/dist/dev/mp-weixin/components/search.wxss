@@ -1,0 +1,42 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2234109_wunvh98s82n.eot?t=1606471724797'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2234109_wunvh98s82n.eot?t=1606471724797#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAK8AAsAAAAABlwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcApogQkBNgIkAwgLBgAEIAWEbQcwG68FyJ6aPCkSIqDAbJ71PCfiGkRQLVvP3n6M6olBUtisQ1RoFA6MQYF0CINw+GzEDdq9nwLaUuk0FvYhOTznUgjLBk5Luwljt/r/+SVAl3IW7yb6PJfTu6uANs4PlOvakyb1AurFgRTgXhhFViaJN4xd8AIfE2ial8PjtKqhA/jL7FWBeNRVEfgXIrLM8nWh2nAwizcV9fSSrgCv0ffjnxD+JJWC3XTxUKmAkq9cp8hroVxwHxCiBHS8ggK7gEzcNGbOeAnG9NLMeFsGjlUffOW6y8AmjmoW7K+za9tgBrPBV64ne9R8gseaaB6wP+lyYn66s6XrMO5+setuq+NmofP2trvz5i7HW+6+393wKMCDjSb4M8ntZqRBt1iyubTkOL09oazMxX5lDfaNzZTDH5gZq5ges5uhOaAEQHlxVqQADwTPHzhtOKzgv38rg8/3n90oVJ7BMB9Q37E3+EHSgX3ZkNvWlDVp43Ayf+KWpiZKODD0NtUwuZtCqJtM8NXMZdFC3ZFdZMjYRUXLHqrqDtC0o/p4ywjhJXID21YBQt8lkq53FPquycx4RcXUB6r64YWmu4i6sGU99MBygkSKFChNQl122LFrp4FxfRtSR60iycsjfhciph6HPMOV89XIjsgSW8wxVaAUQ0wcNlgFnkNWqwM6icNAMmU0Sp15LIub3sTIDhsIdIJARBSigCSTIJ3MwQ4Ho6nAyufbIKpRViLS0VOX7IIQJn16iMfgBpDVGvugnkd5xTRGJaAoDMIIBxuoCsxDrKwcIGfzPAMioxjahJRTHtYZhIdqmO11tr87Bk22MYUzq1B9QiKRNQAAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_2234109_wunvh98s82n.woff?t=1606471724797') format('woff'),
+  url('//at.alicdn.com/t/font_2234109_wunvh98s82n.ttf?t=1606471724797') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2234109_wunvh98s82n.svg?t=1606471724797#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-search:before {
+  content: "\e62d";
+}
+.search {
+  background-color: #ff2e49;
+  padding: 20rpx;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.search .input {
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #fff;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+.search .input .icon-search {
+  margin-right: 12rpx;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
